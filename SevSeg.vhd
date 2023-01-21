@@ -3,6 +3,9 @@ USE ieee.std_logic_1164.all;
 USE ieee.std_logic_unsigned.all;
 USE ieee.numeric_std.all;
 
+--Author: Raymond Fleming
+--Purpose: Drive output on builtin 7 segment display on FPGA board
+
 ENTITY SevSegHex IS
 	Port ( InCode	: IN STD_LOGIC_VECTOR(0 to 3);
 			 OutCode : OUT STD_LOGIC_VECTOR(1 to 7));
