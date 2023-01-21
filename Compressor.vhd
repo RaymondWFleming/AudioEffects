@@ -3,6 +3,9 @@ USE ieee.std_logic_1164.all;
 USE ieee.std_logic_unsigned.all;
 USE ieee.numeric_std.all;
 
+-- Author Raymond Fleming
+-- Purpose: Perform audio compression on a live audio signal
+
 ENTITY Compressor IS
 	Port ( Input		  : IN STD_LOGIC_VECTOR(23 downto 0);
 			 AverageSig   : IN STD_LOGIC_VECTOR(23 downto 0);
